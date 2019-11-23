@@ -31,6 +31,7 @@ public class BRS_PlaneDropManager : MonoBehaviour
 
         for (int i = 0; i < PD_L.Length; i++)
         {
+
             PD_L[i] = setupPosition;
             setupPosition = new Vector3(-_MapSize, BRS_PlaneAltitude, (setupPosition.z - 1000));
         }
